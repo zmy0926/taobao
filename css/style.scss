@@ -31,6 +31,7 @@
     }
     .main {
         width: 100%;
+        height: px2rem(1000px);
         flex: 1;
         overflow: auto;
         .banner {
@@ -73,12 +74,28 @@
                 }
             }
         }
+        .banner2 {
+            width: 100%;
+            display: flex;
+            border: 1px solid #ccc;
+            .banner_div {
+                flex: 1;
+            }
+        }
     }
     .footer {
         width: 100%;
         display: flex;
         dl {
             width: 20%;
+            text-align: center;
+            border-top: 1px solid #ccc;
+            dt {
+                margin: 0 auto;
+                i {
+                    font-size: px2rem(55px);
+                }
+            }
         }
     }
 }

@@ -189,6 +189,7 @@ code {
 
 .wrap .main {
   width: 100%;
+  height: 26.66667rem;
   flex: 1;
   overflow: auto;
 }
@@ -242,6 +243,16 @@ code {
   padding: 0.26667rem 0;
 }
 
+.wrap .main .banner2 {
+  width: 100%;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.wrap .main .banner2 .banner_div {
+  flex: 1;
+}
+
 .wrap .footer {
   width: 100%;
   display: flex;
@@ -249,4 +260,14 @@ code {
 
 .wrap .footer dl {
   width: 20%;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.wrap .footer dl dt {
+  margin: 0 auto;
+}
+
+.wrap .footer dl dt i {
+  font-size: 1.46667rem;
 }
