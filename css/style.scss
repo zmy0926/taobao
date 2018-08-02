@@ -78,8 +78,41 @@
             width: 100%;
             display: flex;
             border: 1px solid #ccc;
+            height: px2rem(150px);
+            h2 {
+                width: px2rem(120px);
+                padding: px2rem(10px);
+                img {
+                    width: 100%;
+                }
+            }
             .banner_div {
                 flex: 1;
+                ul {
+                    li {
+                        display: flex;
+                        .left {
+                            flex: 1;
+                            padding: px2rem(20px);
+                            p {
+                                width: 100%;
+                                padding-bottom: px2rem(10px);
+                                .span1 {
+                                    border: px2rem(1px) solid red;
+                                    padding: 0 px2rem(10px);
+                                    border-radius: px2rem(10px);
+                                    color: red;
+                                }
+                            }
+                        }
+                        .right {
+                            width: px2rem(220px);
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

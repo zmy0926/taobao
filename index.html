@@ -72,9 +72,9 @@
             </div>
             <div class="banner2">
                 <h2><img src="./images/pic1.png" alt=""></h2>
-                <div class="banner_div">
-                    <ul>
-                        <li>
+                <div class="banner_div  swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
                             <div class="left">
                                 <p>
                                     <span class="span1">动漫</span>
@@ -85,7 +85,20 @@
                                     <span class="span2">很好看的</span>
                                 </p>
                             </div>
-                            <div class="right"><img src="" alt=""></div>
+                            <div class="right"><img src="https://ossgw.alicdn.com/tbheadline/g0/24hHn3c/m/fnpgoioo.jpg" alt=""></div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="left">
+                                <p>
+                                    <span class="span1">动漫</span>
+                                    <span class="span2">海贼王？难以抓到人的海贼</span>
+                                </p>
+                                <p>
+                                    <span class="span1">动漫</span>
+                                    <span class="span2">很好看的</span>
+                                </p>
+                            </div>
+                            <div class="right"><img src="https://ossgw.alicdn.com/tbheadline/g0/24hHn3c/m/fnpgoioo.jpg" alt=""></div>
                         </li>
                     </ul>
                 </div>
@@ -123,6 +136,13 @@
             pagination: {
                 el: '.page'
             }
+        })
+        new Swiper('.banner_div', {
+            loop: true,
+            autoplay: {
+                delay: 1000
+            },
+            direction: 'vertical'
         })
     </script>
 </body>

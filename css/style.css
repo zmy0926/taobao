@@ -247,10 +247,49 @@ code {
   width: 100%;
   display: flex;
   border: 1px solid #ccc;
+  height: 4rem;
+}
+
+.wrap .main .banner2 h2 {
+  width: 3.2rem;
+  padding: 0.26667rem;
+}
+
+.wrap .main .banner2 h2 img {
+  width: 100%;
 }
 
 .wrap .main .banner2 .banner_div {
   flex: 1;
+}
+
+.wrap .main .banner2 .banner_div ul li {
+  display: flex;
+}
+
+.wrap .main .banner2 .banner_div ul li .left {
+  flex: 1;
+  padding: 0.53333rem;
+}
+
+.wrap .main .banner2 .banner_div ul li .left p {
+  width: 100%;
+  padding-bottom: 0.26667rem;
+}
+
+.wrap .main .banner2 .banner_div ul li .left p .span1 {
+  border: 0.02667rem solid red;
+  padding: 0 0.26667rem;
+  border-radius: 0.26667rem;
+  color: red;
+}
+
+.wrap .main .banner2 .banner_div ul li .right {
+  width: 5.86667rem;
+}
+
+.wrap .main .banner2 .banner_div ul li .right img {
+  width: 100%;
 }
 
 .wrap .footer {
